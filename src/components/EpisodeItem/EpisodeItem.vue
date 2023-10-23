@@ -1,19 +1,19 @@
 <template>
-  <div class="EpisodeItem">
+  <section class="EpisodeItem">
     <div class="EpisodeItem__header">
       <img
         class="EpisodeItem__image"
-        :src="require(`@/assets/${image}`)"
+        :src="require(`@/assets/film/${image}`)"
         :alt="`{title}`"
       >
-      <div>
+      <div class="EpisodeItem__titleBlock">
         <h3>{{title}}</h3>
-        <h4>{{version}}</h4>
+        <h4 class="EpisodeItem__version">{{version}}</h4>
       </div>
     </div>
     <p>{{description}}</p>
     <slot></slot>
-  </div>
+  </section>
 </template>
 
 <script lang="ts">

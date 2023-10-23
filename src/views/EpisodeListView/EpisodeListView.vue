@@ -3,10 +3,13 @@
 <template>
   <div class="EpisodeListView">
     <div class="EpisodeListView__content">
+      <h1>Código Fílmico</h1>
+      <h2>El podcast donde programadores ponemos a caldo películas cada vez que en ellas se enciende un ordenador.</h2>
+      <h5 class="EpisodeListView__version">Versión 1</h5>
       <EpisodeItem
         title="Steve Jobs (2015)"
         version="v1.1.0"
-        image="steve_jobs.jpg"
+        image="steve_jobs_miniature.jpg"
         description="En este episodio hablamos sobre la película Steve Jobs (2015) y nos enfrascamos en una pequeña batalla con el único de nuestros colaboradores que esgrimía un móvil con SO Android. También podéis escuchar al gran Antonio Huerta que nos ha acompañado en este primer programa."
         spotifyLink=""
         applePodcastLink=""

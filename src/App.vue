@@ -3,5 +3,5 @@
 </template>
 
 <style lang="sass">
-    @import './style/normalize'
+  @import './style/normalize'
 </style>
