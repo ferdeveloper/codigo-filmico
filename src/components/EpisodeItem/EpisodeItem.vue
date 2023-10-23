@@ -12,12 +12,18 @@
       </div>
     </div>
     <p>{{description}}</p>
+    <SocialMedia
+      :spotifyLink="spotifyLink"
+      :applePodcastLink="applePodcastLink"
+      :youtubeLink="youtubeLink"
+    />
     <slot></slot>
   </section>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue';
+import SocialMedia from '@/components/SocialMedia/SocialMedia.vue';
 
 export default defineComponent({
   name: 'EpisodeItem',
@@ -50,6 +56,9 @@ export default defineComponent({
       type: String,
       required: true,
     },
+  },
+  components: {
+    SocialMedia,
   },
 });
 </script>
