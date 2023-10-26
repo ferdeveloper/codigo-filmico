@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# codigo-filmico
-=======
 # codigo-filmico
 
 ## Project setup
@@ -25,4 +22,3 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
->>>>>>> 4479f10 (init)
